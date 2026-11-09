@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apply to Be My Girlfriend</title>
+  <meta name="description" content="A very unserious dating application.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23ff91b6'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-size='23'%3E♥%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="forms.js" defer></script>
+</head>
+<body class="dating">
+  <header class="site-header wrap">
+    <a class="brand" href="./"><span class="brand-icon" aria-hidden="true">♥</span> The Date Dept.</a>
+    <a class="nav-link" href="#apply">Apply now <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <div class="wrap hero">
+      <div>
+        <p class="eyebrow"><span class="status-dot"></span> NOW ACCEPTING APPLICATIONS</p>
+        <h1>Apply to be my <em>girlfriend.</em></h1>
+        <p class="intro">I could’ve just asked you out. Instead, I made a funnel.</p>
+        <a class="button" href="#apply">Start my application <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="player">
+        <div class="player-bar"><span><i></i> THE DATE DEPT.</span><span>FILM 01 / VSL</span></div>
+        <video controls playsinline preload="metadata" poster="poster.png" aria-label="A very serious presentation from the Date Department">
+          <source src="pitch.mp4" type="video/mp4">
+          <track kind="captions" src="pitch.vtt" srclang="en" label="English">
+          Your browser does not support video playback.
+        </video>
+        <figcaption><span>THE CASE FOR A FIRST DATE</span><span aria-hidden="true">✦</span></figcaption>
+      </figure>
+    </div>
+    <div class="perks"><div class="wrap perks-inner">
+      <span>✦ &nbsp; HOODIE PRIVILEGES</span>
+      <span>✦ &nbsp; SHARED FRIES*</span>
+      <span>✦ &nbsp; GOOD MORNING TEXTS</span>
+    </div></div>
+    <section class="wrap section-grid" id="apply">
+      <div>
+        <p class="eyebrow">01 / THE APPLICATION</p>
+        <h2>So, are we<br><em>doing this?</em></h2>
+        <p>Three questions and you’re through to the imaginary shortlist.</p>
+        <p class="small">*Fry allocation is subject to negotiation.</p>
+      </div>
+      <form class="form-card" data-demo-form="date">
+        <label>First name <input name="name" autocomplete="given-name" maxlength="60" placeholder="Your name" required></label>
+        <label>Ideal date snack
+          <select name="snack" required>
+            <option value="">Choose wisely</option>
+            <option>Chips to share</option>
+            <option>Chips I won't share</option>
+            <option>Ice cream</option>
+            <option>A full Sunday roast</option>
+          </select>
+        </label>
+        <label>Pitch our first date <textarea name="pitch" maxlength="350" rows="3" placeholder="Coffee? Mini golf? A trip to IKEA?" required></textarea></label>
+        <button class="button" type="submit">Submit my application <span aria-hidden="true">↗</span></button>
+        <p class="small">Meme form. Your answers stay in this page.</p>
+      </form>
+      <div class="form-card confirmation" tabindex="-1" hidden>
+        <p class="eyebrow">APPLICATION RECEIVED ♥</p>
+        <h3>You’re on the shortlist.</h3>
+        <p>The Department will convene after a thorough review of the fry policy.</p>
+        <button type="button" class="text-button" data-reset>Try another application</button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><p class="eyebrow">THE DATE DEPT. / AFTER HOURS</p><p>Need a little help with your dating life?</p></div>
+      <a class="button footer-button" href="agency.html">Want to land more dates? <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
