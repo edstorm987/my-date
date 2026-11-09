@@ -54,7 +54,16 @@
             <option>Classified (sign the NDA)</option>
           </select>
         </label>
-        <label>Pitch our first date <textarea name="pitch" maxlength="350" rows="3" placeholder="Coffee? Mini golf? A trip to IKEA?" required></textarea></label>
+        <label>Are you any of these?
+          <select name="redFlag" required>
+            <option value="">Pick your biggest red flag</option>
+            <option>Needy</option>
+            <option>Annoying</option>
+            <option>Clingy</option>
+            <option>Don’t like cheaters</option>
+            <option>None of the above (allegedly)</option>
+          </select>
+        </label>
         <label>Feet pic (required)
           <input id="feet-photo" type="file" accept="image/*" aria-describedby="feet-photo-note" required>
         </label>
